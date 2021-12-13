@@ -254,7 +254,7 @@ def main():
             restart = input('Only yes or no arguments are applicable. Please Enter Yes or No:\n>>>')
             restart = restart.lower()
         if restart.lower() != 'yes':
-            print('Thank you and see you later!')
+            print('Thank you for collaboration and see you later!')
             break
 
 
