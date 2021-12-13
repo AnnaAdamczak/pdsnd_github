@@ -4,7 +4,7 @@
 13.12.2021
 
 ### Project Title
-Investigation of Bikeshare database
+Investigation of Bikeshare database.
 
 ### Description
 The project is about bikeshare in three cities in USA
@@ -15,4 +15,4 @@ bikeshare.py
 
 ### Credits
 Forked template: https://github.com/udacity/pdsnd_github
-And special thanks to my husband, who is always supportive for me and encourages me to do more.
+And special thanks to my husband, who is always supportive for me and encourages me to do more!
