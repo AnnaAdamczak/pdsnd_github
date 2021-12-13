@@ -9,6 +9,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
+    User is supposed to pick city, month and day
 
     Returns:
         (str) city - name of the city to analyze
@@ -49,7 +50,6 @@ def get_filters():
     while day not in days:
         day = input('Week day incorrect please try again or check for typos.\n>>>')
         month = month.casefold()
-
 
     print('-'*40)
     return city, month, day
@@ -159,6 +159,7 @@ def station_stats(df):
     # TO DO: display most frequent combination of start station and end station trip
     print('\n Most Frequent Combination of Start and End Station Trips: \n\n',df.groupby(['Start Station', 'End Station']).size().nlargest(1))
 
+
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
 
@@ -210,7 +211,6 @@ def user_stats(df):
         print('Earliest year of birth is:', df['Birth Year'].min())
         print('Most recent year of birth is:', df['Birth Year'].max())
         print('Most common year of birth is:', df['Birth Year'].mode()[0])
-
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
