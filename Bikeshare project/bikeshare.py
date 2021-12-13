@@ -23,7 +23,7 @@ def get_filters():
 
     # checking if the city typed by user is in the dictionary
     while city not in CITY_DATA:
-        city = input("We don't have that city in our base. Please try again or check for typos.\n>>>")
+        city = input("We don't have that city in our base. Please try again or check for misspelling.\n>>>")
         city = city.casefold()
 
 
@@ -36,7 +36,7 @@ def get_filters():
     #changing whatever user added to casefold and checking if the input is in the list
     month = month.casefold()
     while month not in months:
-        month = input('Month incorrect please try again or check for typos.\n>>>')
+        month = input('Month incorrect please try again or check for misspelling.\n>>>')
         month = month.casefold()
 
 
@@ -48,7 +48,7 @@ def get_filters():
     #changing whatever user added to casefold and checking if the input is in the list
     day = day.casefold()
     while day not in days:
-        day = input('Week day incorrect please try again or check for typos.\n>>>')
+        day = input('Week day incorrect please try again or check for misspelling.\n>>>')
         month = month.casefold()
 
     print('-'*40)
