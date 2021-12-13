@@ -7,10 +7,12 @@
 Investigation of Bikeshare database
 
 ### Description
-Describe what your project is about and what it does
+The project is about bikeshare in three cities in USA
+to tell most commonly used destinations and frequency of rides.
 
 ### Files used
-Include the files used
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Forked template: https://github.com/udacity/pdsnd_github
+And special thanks to my husband, who is always supportive for me and encourages me to do more.
